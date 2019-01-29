@@ -1,12 +1,31 @@
-# main links
+# main Menu
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Posts"
+    url: /post-archive-feature-rows/
+ # - title: "Categories"
+ #   url: /Categories/
+ # - title: "Tags"
+ #   url: /Tags/
+  - title: "Pages"
+    url: /page-archive/
+  #- title: "Collections"
+   # url: /Collections/
+  - title: "3D Paws"
+    url: http://3d.chordsrt.com/
+
+    #Test for drop down menu
+
+
+#Test for sidebar menu
+sidebar-sample:
+  - title: "Menu"
+    children:
+        - title: "Posts"
+          url: /post-archive-feature-rows/
+        - title: "Pages"
+          url: /page-archive/
+        - title: "3D Paws"
+          url: http://3d.chordsrt.com/
+
+
+
