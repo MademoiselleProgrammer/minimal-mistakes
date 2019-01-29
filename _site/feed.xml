@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-29T08:16:48-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Web Site</title><subtitle>A work in progress</subtitle><author><name>Robyn</name></author><entry><title type="html">New EarthCube blog article featuring CHORDS</title><link href="http://localhost:4000/chords-earthcube-blog/" rel="alternate" type="text/html" title="New EarthCube blog article featuring CHORDS" /><published>2017-08-31T00:00:00-06:00</published><updated>2017-08-31T00:00:00-06:00</updated><id>http://localhost:4000/chords-earthcube-blog</id><content type="html" xml:base="http://localhost:4000/chords-earthcube-blog/">&lt;p&gt;A new &lt;a href=&quot;https://earthcube.wordpress.com/2017/08/31/chords-expanded-project/&quot;&gt;EarthCube blog article&lt;/a&gt; entitled
+“Striking Power CHORDS with the Geosciences” has been posted to the EarthCube blog site.&lt;/p&gt;
+
+&lt;p&gt;Read about the current status of the project and the planned developments for the future.&lt;/p&gt;</content><author><name>Robyn</name></author><summary type="html">A new EarthCube blog article entitled “Striking Power CHORDS with the Geosciences” has been posted to the EarthCube blog site.</summary></entry><entry><title type="html">Grafana Visualization Added</title><link href="http://localhost:4000/grafana/" rel="alternate" type="text/html" title="Grafana Visualization Added" /><published>2017-08-16T00:00:00-06:00</published><updated>2017-08-16T00:00:00-06:00</updated><id>http://localhost:4000/grafana</id><content type="html" xml:base="http://localhost:4000/grafana/">&lt;p&gt;Powerful dashboard capabilities have been added to CHORDS. Users can create 
+sophisticated realtime displays, with exceptional time navigation
+features, right in their browser.&lt;/p&gt;
+
+&lt;p&gt;These are provided via the terrific opensource &lt;a href=&quot;https://grafana.com/&quot;&gt;Grafana&lt;/a&gt; 
+system. Grafana is implemented in CHORDS as a separate web server running
+as a Docker container. Highly responsive graphics are possible because Grafana has
+direct access to the CHORDS InfluxDB database.&lt;/p&gt;
+
+&lt;p&gt;The Grafana graphics are triggered by hitting the Visualiztion link
+on the CHORDS website. Here are examples of custom displays
+that a user can configure online:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/grafana_2.png&quot; alt=&quot;Grafana2&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/grafana_1.png&quot; alt=&quot;Grafana1&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;</content><author><name>Robyn</name></author><summary type="html">Powerful dashboard capabilities have been added to CHORDS. Users can create sophisticated realtime displays, with exceptional time navigation features, right in their browser.</summary></entry><entry><title type="html">CHORDS Switches To InfluxDB</title><link href="http://localhost:4000/influxdb/" rel="alternate" type="text/html" title="CHORDS Switches To InfluxDB" /><published>2017-08-01T00:00:00-06:00</published><updated>2017-08-01T00:00:00-06:00</updated><id>http://localhost:4000/influxdb</id><content type="html" xml:base="http://localhost:4000/influxdb/">&lt;p&gt;CHORDS has adopted the &lt;a href=&quot;https://www.influxdata.com/time-series-platform/influxdb/&quot;&gt;InfluxDB&lt;/a&gt; time-series database,
+from &lt;a href=&quot;https://influxdata.com&quot;&gt;influxdata&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;InfluxDB is a high performance database, designed specifically for time-series
+appllications. Changing from the original MySQL database for data storage
+allows CHORDS to manage, navigate, and deliver much larger datasets. Currently active
+CHORDS deployments have reached the size of 50M measurements.&lt;/p&gt;
+
+&lt;p&gt;The InfluxDB database is implmented as an independent Docker service, which then is
+accessed by other containers in the CHORDS application suite. The Rails and Grafana 
+applications currently access the database; others can be added in the future, as 
+new requirements are discovered.&lt;/p&gt;</content><author><name>Robyn</name></author><summary type="html">CHORDS has adopted the InfluxDB time-series database, from influxdata.</summary></entry><entry><title type="html">Docker Advances</title><link href="http://localhost:4000/docker-advances/" rel="alternate" type="text/html" title="Docker Advances" /><published>2016-09-15T00:00:00-06:00</published><updated>2016-09-15T00:00:00-06:00</updated><id>http://localhost:4000/docker-advances</id><content type="html" xml:base="http://localhost:4000/docker-advances/">&lt;p&gt;The &lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt; version 
+of CHORDS now has a persistent database.&lt;/p&gt;
+
+&lt;p&gt;This means that you can start and stop your docker
+engine, your CHORDS docker containers, or restart the server, and
+the database will survive. It’s also very easy to update
+to new releases of CHORDS without loosing any data.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/os.html&quot;&gt;Instructions&lt;/a&gt;
+for deploying CHORDS with Docker have been updated.&lt;/p&gt;
+
+&lt;p&gt;The Docker version of CHORDS is also now being tested on Amazon Web Services. 
+When that is finally rolled out, it will be even a little simpler to spin up a CHORDS
+server on Amazon.&lt;/p&gt;</content><author><name>Robyn</name></author><summary type="html">The Docker version of CHORDS now has a persistent database.</summary></entry><entry><title type="html">CHORDS is being adapted to run under Docker</title><link href="http://localhost:4000/docker-development/" rel="alternate" type="text/html" title="CHORDS is being adapted to run under Docker" /><published>2016-08-30T00:00:00-06:00</published><updated>2016-08-30T00:00:00-06:00</updated><id>http://localhost:4000/docker-development</id><content type="html" xml:base="http://localhost:4000/docker-development/">&lt;p&gt;We are working on making a CHORDS portal available using &lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This means that you will be able to run a CHORDS portal locally, on your own 
+Mac, Windows or Linux system. We will also upgrade the CHORDS cloud creation
+processs so that the Docker images are used on AWS and other cloud services.&lt;/p&gt;
+
+&lt;p&gt;A prototype of the Docker implmentation is already working, so right now you can 
+easily install and run CHORDS locally. &lt;a href=&quot;https://github.com/NCAR/chords_portal/wiki/Docker-for-CHORDS&quot;&gt;Instructions&lt;/a&gt;
+are provided on Docker Hub.&lt;/p&gt;
+
+&lt;p&gt;At this time, the CHORDS database is not persistent. If you shut down the CHORDS docker containers,
+the database will be lost. Fixing this is one of the first improvements we plan to make.&lt;/p&gt;</content><author><name>Robyn</name></author><summary type="html">We are working on making a CHORDS portal available using Docker.</summary></entry><entry><title type="html">Open Source CHORDS Portal for the Geosciences Video</title><link href="http://localhost:4000/chords-video/" rel="alternate" type="text/html" title="Open Source CHORDS Portal for the Geosciences Video" /><published>2016-05-10T00:00:00-06:00</published><updated>2016-05-10T00:00:00-06:00</updated><id>http://localhost:4000/chords-video</id><content type="html" xml:base="http://localhost:4000/chords-video/">&lt;p&gt;Mike Daniels and Charlie Martin presenting the CHORDS portal at NCAR - &lt;a href=&quot;https://www.youtube.com/watch?v=W4isltbTFJo&quot;&gt;Open Source CHORDS Portal for the Geosciences&lt;/a&gt;.&lt;/p&gt;</content><author><name>Robyn</name></author><summary type="html">Mike Daniels and Charlie Martin presenting the CHORDS portal at NCAR - Open Source CHORDS Portal for the Geosciences.</summary></entry><entry><title type="html">Responsive Design</title><link href="http://localhost:4000/boostrap/" rel="alternate" type="text/html" title="Responsive Design" /><published>2016-02-12T00:00:00-07:00</published><updated>2016-02-12T00:00:00-07:00</updated><id>http://localhost:4000/boostrap</id><content type="html" xml:base="http://localhost:4000/boostrap/">&lt;p&gt;The CHORDS Portal has been reworked to use “responsive design”. This means that
+the web site will display nicely on all sizes of devices, from phones to desktops.&lt;/p&gt;
+
+&lt;p&gt;This is made possible using the awesome &lt;a href=&quot;https://getbootstrap.com/&quot;&gt;Twitter boostrap&lt;/a&gt;
+styling toolkit.&lt;/p&gt;</content><author><name>Robyn</name></author><summary type="html">The CHORDS Portal has been reworked to use “responsive design”. This means that the web site will display nicely on all sizes of devices, from phones to desktops.</summary></entry><entry><title type="html">Welcome</title><link href="http://localhost:4000/welcome/" rel="alternate" type="text/html" title="Welcome" /><published>2015-11-05T00:00:00-07:00</published><updated>2015-11-05T00:00:00-07:00</updated><id>http://localhost:4000/welcome</id><content type="html" xml:base="http://localhost:4000/welcome/">&lt;p&gt;Welcome to the  to the CHORDS Portal User Site, your guide to all things CHORDS.&lt;/p&gt;
+
+&lt;p&gt;Here you will find tutorials and reference materials. The occaisional blog entry
+will announce new features, provides tips and answer questions.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, feel free to drop a line to the CHORDS email address.&lt;/p&gt;</content><author><name>Robyn</name></author><summary type="html">Welcome to the to the CHORDS Portal User Site, your guide to all things CHORDS.</summary></entry></feed>
